@@ -1,0 +1,126 @@
+{
+  "decoupling": {
+    "n_cells": 495,
+    "pearson_r": 0.2819569166227159,
+    "spearman_rho": 0.23581999550871008,
+    "quadrants": {
+      "format_up_correct_up": 202,
+      "format_up_correct_nonpositive": 149,
+      "format_nonpositive_correct_up": 63,
+      "both_nonpositive": 81
+    },
+    "quadrant_shares": {
+      "format_up_correct_up": 0.4080808080808081,
+      "format_up_correct_nonpositive": 0.301010101010101,
+      "format_nonpositive_correct_up": 0.12727272727272726,
+      "both_nonpositive": 0.16363636363636364
+    },
+    "mean_delta_format_minus_relaxed_pp": 31.218686868686866,
+    "median_delta_format_pp": 14.000000000000002,
+    "median_delta_relaxed_pp": 1.0
+  },
+  "taxonomy": {
+    "pure_format_gain": {
+      "count": 12228,
+      "share": 0.24884004884004884
+    },
+    "pure_correctness_gain": {
+      "count": 3128,
+      "share": 0.06365486365486366
+    },
+    "joint_gain": {
+      "count": 3494,
+      "share": 0.0711029711029711
+    },
+    "pure_format_loss": {
+      "count": 446,
+      "share": 0.009076109076109076
+    },
+    "pure_correctness_loss": {
+      "count": 2894,
+      "share": 0.05889295889295889
+    },
+    "joint_loss": {
+      "count": 111,
+      "share": 0.002258852258852259
+    },
+    "correctness_format_tradeoff": {
+      "count": 1970,
+      "share": 0.04008954008954009
+    },
+    "unchanged": {
+      "count": 24869,
+      "share": 0.5060846560846561
+    }
+  },
+  "mbpp_inclusion": {
+    "functional_models": 13,
+    "paired_candidates_per_stage": 11700,
+    "pre_pass_n": 2222,
+    "post_pass_n": 1794,
+    "pre_pass_rate": 0.18991452991452992,
+    "post_pass_rate": 0.15333333333333332,
+    "analysis_inclusion_rate_within_functional_subset": 1.0
+  },
+  "mbpp_ceiling": {
+    "deterministic_pairs": 7800,
+    "empirical_ceiling_definition": "generated_tokens equals the repeated hard upper bound observed for that model in deterministic MBPP logs; this is a proxy unless the generating notebook is recovered",
+    "pre_ceiling_hit_n": 1301,
+    "pre_ceiling_hit_rate": 0.1667948717948718,
+    "post_ceiling_hit_n": 89,
+    "post_ceiling_hit_rate": 0.011410256410256411,
+    "raw_model_macro_pre_pass1": 0.19615384615384618,
+    "raw_model_macro_post_pass1": 0.14794871794871794,
+    "raw_model_macro_delta_pass1": -0.04820512820512822,
+    "raw_model_cluster_ci": [
+      -0.09653846153846153,
+      -0.010512820512820514
+    ],
+    "nonhit_pairs": 6436,
+    "nonhit_model_macro_pre_pass1": 0.21734564883519333,
+    "nonhit_model_macro_post_pass1": 0.16262481318522085,
+    "nonhit_model_macro_delta_pass1": -0.05472083564997247,
+    "nonhit_model_cluster_ci": [
+      -0.10565416283434816,
+      -0.012958263967796419
+    ]
+  },
+  "sensitivity": [
+    {
+      "analysis": "full paired core",
+      "strict": 12.12070707070707,
+      "relaxed": 3.565656565656565,
+      "format": 34.784343434343434,
+      "tokens": -48.54588552188552,
+      "cells": 495,
+      "model_dataset_pairs": 55
+    },
+    {
+      "analysis": "exclude MBPP",
+      "strict": 15.316395663956639,
+      "relaxed": 4.910569105691057,
+      "format": 35.911246612466115,
+      "tokens": -22.15705871725384,
+      "cells": 369,
+      "model_dataset_pairs": 41
+    },
+    {
+      "analysis": "exclude three strongest MBPP-decline models",
+      "strict": 12.650516795865633,
+      "relaxed": 2.607235142118863,
+      "format": 38.866279069767444,
+      "tokens": -50.293407407407415,
+      "cells": 387,
+      "model_dataset_pairs": 43
+    },
+    {
+      "analysis": "exclude MBPP and three strongest MBPP-decline models",
+      "strict": 15.93315972222222,
+      "relaxed": 3.486111111111111,
+      "format": 40.26475694444444,
+      "tokens": -23.349081018518522,
+      "cells": 288,
+      "model_dataset_pairs": 32
+    }
+  ]
+}

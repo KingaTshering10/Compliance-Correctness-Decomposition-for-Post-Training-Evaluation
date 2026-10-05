@@ -1,0 +1,39 @@
+{
+  "partial_corr_preC_preF": 0.22746121492586188,
+  "partial_corr_preC_preF_datasetFE": 0.17236781234552215,
+  "dose_available_model_dataset_rows": 5,
+  "dose_unique_recipes": 5,
+  "mbpp_dose_rows": 1,
+  "dose_stats": {
+    "Dpp~effective_epochs": {
+      "n": 5,
+      "spearman_rho": -0.6668859288553503,
+      "p": 0.21889398131323148
+    },
+    "Dpp~sft_max_steps": {
+      "n": 5,
+      "spearman_rho": 0.35355339059327373,
+      "p": 0.5594043441634877
+    },
+    "dCpp~effective_epochs": {
+      "n": 5,
+      "spearman_rho": -0.8720815992723809,
+      "p": 0.05385421772754213
+    },
+    "dCpp~sft_max_steps": {
+      "n": 5,
+      "spearman_rho": 0.35355339059327373,
+      "p": 0.5594043441634877
+    },
+    "dFpp~effective_epochs": {
+      "n": 5,
+      "spearman_rho": -0.5642880936468347,
+      "p": 0.3217233358243003
+    },
+    "dFpp~sft_max_steps": {
+      "n": 5,
+      "spearman_rho": 0.7071067811865475,
+      "p": 0.18169011381620942
+    }
+  }
+}

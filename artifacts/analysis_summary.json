@@ -1,0 +1,81 @@
+{
+  "paired_cells": 495,
+  "paired_model_dataset_pairs": 55,
+  "paired_items_total": 49140,
+  "paired_n_100_cells": 477,
+  "paired_n_80_cells": 18,
+  "macro_delta_strict_pp": 12.12070707070707,
+  "macro_delta_relaxed_pp": 3.565656565656565,
+  "macro_delta_format_pp": 34.784343434343434,
+  "macro_delta_tokens": -48.54588552188552,
+  "paired_boot_ci_strict_pp": [
+    11.745454545454558,
+    12.507588383838385
+  ],
+  "paired_boot_ci_relaxed_pp": [
+    3.147436868686867,
+    3.998484848484847
+  ],
+  "paired_boot_ci_format_pp": [
+    34.510606060606094,
+    35.05959595959596
+  ],
+  "hier_boot_ci_strict_pp": [
+    8.174556277056277,
+    16.698894300144293
+  ],
+  "hier_boot_ci_relaxed_pp": [
+    0.9300411522633744,
+    6.577380952380951
+  ],
+  "hier_boot_ci_format_pp": [
+    23.303532647907645,
+    48.26820616883117
+  ],
+  "hier_boot_ci_tokens": [
+    -74.84512498015874,
+    -25.862500011022934
+  ],
+  "pre_acceptance_gap_pp": 11.333333333333334,
+  "post_acceptance_gap_pp": 2.7782828282828285,
+  "mcnemar_fdr_sig_strict": {
+    "sig_total": 183,
+    "sig_positive": 176,
+    "sig_negative": 7,
+    "median_p": 0.26317596435546875
+  },
+  "mcnemar_fdr_sig_relaxed": {
+    "sig_total": 67,
+    "sig_positive": 54,
+    "sig_negative": 13,
+    "median_p": 0.557197093963623
+  },
+  "mcnemar_fdr_sig_format": {
+    "sig_total": 290,
+    "sig_positive": 274,
+    "sig_negative": 16,
+    "median_p": 0.0001220703125
+  },
+  "transition_counts": {
+    "pure_format_gain": 12228,
+    "pure_correctness_gain": 3128,
+    "joint_gain": 3494,
+    "pure_format_loss": 446,
+    "pure_correctness_loss": 2894,
+    "joint_loss": 111,
+    "unchanged": 24869
+  },
+  "functional_mbpp_models": 13,
+  "functional_mbpp_cells": 117,
+  "functional_mbpp_delta_pass1_pp": -3.658119658119658,
+  "functional_mbpp_paired_boot_ci_pp": [
+    -4.3247863247863245,
+    -3.0085470085470094
+  ],
+  "functional_mbpp_model_cluster_ci_pp": [
+    -7.709615384615385,
+    -0.504059829059832
+  ],
+  "functional_mbpp_pre_pass1": 0.18991452991452992,
+  "functional_mbpp_post_pass1": 0.15333333333333335
+}

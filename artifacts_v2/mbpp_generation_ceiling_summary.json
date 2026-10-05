@@ -1,0 +1,23 @@
+{
+  "deterministic_pairs": 7800,
+  "empirical_ceiling_definition": "generated_tokens equals the repeated hard upper bound observed for that model in deterministic MBPP logs; this is a proxy unless the generating notebook is recovered",
+  "pre_ceiling_hit_n": 1301,
+  "pre_ceiling_hit_rate": 0.1667948717948718,
+  "post_ceiling_hit_n": 89,
+  "post_ceiling_hit_rate": 0.011410256410256411,
+  "raw_model_macro_pre_pass1": 0.19615384615384618,
+  "raw_model_macro_post_pass1": 0.14794871794871794,
+  "raw_model_macro_delta_pass1": -0.04820512820512822,
+  "raw_model_cluster_ci": [
+    -0.09653846153846153,
+    -0.010512820512820514
+  ],
+  "nonhit_pairs": 6436,
+  "nonhit_model_macro_pre_pass1": 0.21734564883519333,
+  "nonhit_model_macro_post_pass1": 0.16262481318522085,
+  "nonhit_model_macro_delta_pass1": -0.05472083564997247,
+  "nonhit_model_cluster_ci": [
+    -0.10565416283434816,
+    -0.012958263967796419
+  ]
+}

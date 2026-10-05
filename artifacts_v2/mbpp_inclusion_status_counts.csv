@@ -1,0 +1,9 @@
+outcome_class,pre_n,post_n
+blocked by safety harness,17,25
+missing code,69,28
+passed (detailed),2192,1746
+runtime/test exception,3099,2590
+saved execution label (pass/fail retained),1800,1800
+syntax error,2511,3189
+test assertion failure,1992,2278
+timeout,20,44

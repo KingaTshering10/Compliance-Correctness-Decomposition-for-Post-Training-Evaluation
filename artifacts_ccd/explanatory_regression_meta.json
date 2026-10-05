@@ -1,0 +1,10 @@
+{
+  "n_cells": 495,
+  "n_model_clusters": 14,
+  "r_squared": 0.1575310981621858,
+  "adj_r_squared": 0.13295908852524962,
+  "reference_dataset": "GSM8K",
+  "reference_config": "CoT",
+  "reference_family": "Gemma",
+  "note": "Exploratory OLS with model-clustered standard errors; cluster count is 14, so coefficient inference is interpreted cautiously."
+}

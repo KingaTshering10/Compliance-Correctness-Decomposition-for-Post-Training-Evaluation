@@ -1,0 +1,19 @@
+failure_class,pass_to_failure,failure_to_pass,net_loss_contribution
+Assertion failure,525,265,260
+Syntax error,189,49,140
+TypeError,97,73,24
+IndexError,24,6,18
+AttributeError,16,0,16
+UnboundLocalError,11,1,10
+Timeout,7,0,7
+RecursionError,7,0,7
+RuntimeError,2,0,2
+KeyError,2,0,2
+ValueError,6,4,2
+Safety block,3,1,2
+ZeroDivisionError,2,0,2
+Exception,1,0,1
+ImportError,1,0,1
+Missing code,2,3,-1
+Saved execution label,14,32,-18
+NameError,105,152,-47

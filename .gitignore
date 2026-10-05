@@ -1,0 +1,30 @@
+# macOS and editor files
+.DS_Store
+._*
+*~
+.idea/
+.vscode/
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# LaTeX build products
+paper/main.aux
+paper/main.bbl
+paper/main.blg
+paper/main.fdb_latexmk
+paper/main.fls
+paper/main.log
+paper/main.out
+paper/main.pdf
+paper/main.synctex.gz
+paper/main.toc
+
+# Local operating-system or temporary files
+*.tmp
+*.bak

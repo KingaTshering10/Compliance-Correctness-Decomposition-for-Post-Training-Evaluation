@@ -1,0 +1,20 @@
+{
+  "n_cells": 495,
+  "pearson_r": 0.2819569166227159,
+  "spearman_rho": 0.23581999550871008,
+  "quadrants": {
+    "format_up_correct_up": 202,
+    "format_up_correct_nonpositive": 149,
+    "format_nonpositive_correct_up": 63,
+    "both_nonpositive": 81
+  },
+  "quadrant_shares": {
+    "format_up_correct_up": 0.4080808080808081,
+    "format_up_correct_nonpositive": 0.301010101010101,
+    "format_nonpositive_correct_up": 0.12727272727272726,
+    "both_nonpositive": 0.16363636363636364
+  },
+  "mean_delta_format_minus_relaxed_pp": 31.218686868686866,
+  "median_delta_format_pp": 14.000000000000002,
+  "median_delta_relaxed_pp": 1.0
+}

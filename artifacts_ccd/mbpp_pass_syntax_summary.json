@@ -1,0 +1,13 @@
+{
+  "pre_pass_n": 2222,
+  "post_pass_n": 1794,
+  "net_pass_loss": 428,
+  "pass_to_syntax_n": 189,
+  "syntax_to_pass_n": 49,
+  "net_pass_syntax_imbalance": 140,
+  "share_of_net_pass_loss_accounted_by_net_pass_syntax_imbalance": 0.32710280373831774,
+  "stable_pass": 1208,
+  "pass_to_fail": 1014,
+  "fail_to_pass": 586,
+  "stable_fail": 8892
+}

@@ -1,0 +1,159 @@
+{
+  "within_dataset": [
+    {
+      "dataset": "Pooled",
+      "n_cells": 495,
+      "pearson_r": 0.2819569166227159,
+      "spearman_rho": 0.23581999550871008,
+      "format_up_correct_up": 202,
+      "format_up_correct_nonpositive": 149,
+      "format_nonpositive_correct_up": 63,
+      "both_nonpositive": 81,
+      "key_quadrant_share": 0.301010101010101,
+      "mean_D_pp": 31.218686868686866,
+      "median_D_pp": 14.000000000000002
+    },
+    {
+      "dataset": "GSM8K",
+      "n_cells": 126,
+      "pearson_r": 0.16283464257240743,
+      "spearman_rho": 0.18201917381407764,
+      "format_up_correct_up": 42,
+      "format_up_correct_nonpositive": 27,
+      "format_nonpositive_correct_up": 23,
+      "both_nonpositive": 34,
+      "key_quadrant_share": 0.21428571428571427,
+      "mean_D_pp": 21.682539682539684,
+      "median_D_pp": 10.0
+    },
+    {
+      "dataset": "LogiQA",
+      "n_cells": 117,
+      "pearson_r": 0.613005897664956,
+      "spearman_rho": 0.5522306918079088,
+      "format_up_correct_up": 73,
+      "format_up_correct_nonpositive": 20,
+      "format_nonpositive_correct_up": 14,
+      "both_nonpositive": 10,
+      "key_quadrant_share": 0.17094017094017094,
+      "mean_D_pp": 35.55555555555556,
+      "median_D_pp": 34.0
+    },
+    {
+      "dataset": "MBPP",
+      "n_cells": 126,
+      "pearson_r": -0.0012694669556765233,
+      "spearman_rho": -0.10616893981626457,
+      "format_up_correct_up": 28,
+      "format_up_correct_nonpositive": 71,
+      "format_nonpositive_correct_up": 11,
+      "both_nonpositive": 16,
+      "key_quadrant_share": 0.5634920634920635,
+      "mean_D_pp": 31.85714285714286,
+      "median_D_pp": 11.5
+    },
+    {
+      "dataset": "StrategyQA",
+      "n_cells": 126,
+      "pearson_r": 0.030804100117819803,
+      "spearman_rho": 0.12331017390039427,
+      "format_up_correct_up": 59,
+      "format_up_correct_nonpositive": 31,
+      "format_nonpositive_correct_up": 15,
+      "both_nonpositive": 21,
+      "key_quadrant_share": 0.24603174603174602,
+      "mean_D_pp": 36.08928571428571,
+      "median_D_pp": 14.000000000000002
+    }
+  ],
+  "mbpp_functional_decoupling": {
+    "n_cells": 117,
+    "pearson_r": 0.22685645229487858,
+    "spearman_rho": 0.1589986970389857,
+    "format_up_function_nonpositive_n": 64,
+    "format_up_function_nonpositive_share": 0.5470085470085471,
+    "mean_D_functional_pp": 30.871794871794872
+  },
+  "weighting": [
+    {
+      "weighting": "Equal-cell",
+      "strict": 12.12070707070707,
+      "relaxed": 3.565656565656565,
+      "format": 34.784343434343434,
+      "D": 31.21868686868687
+    },
+    {
+      "weighting": "Observation-weighted",
+      "strict": 12.006512006512006,
+      "relaxed": 3.559218559218559,
+      "format": 34.66218966218966,
+      "D": 31.102971102971104
+    },
+    {
+      "weighting": "Equal-model",
+      "strict": 12.235449735449732,
+      "relaxed": 3.5562169312169307,
+      "format": 35.36507936507937,
+      "D": 31.808862433862437
+    }
+  ],
+  "hierarchical": [
+    {
+      "outcome": "Strict",
+      "mean_pp": 12.12070707070707,
+      "ci_low_pp": 8.077921075837745,
+      "ci_high_pp": 16.561369525972513
+    },
+    {
+      "outcome": "Correctness",
+      "mean_pp": 3.565656565656565,
+      "ci_low_pp": 0.8511408730158727,
+      "ci_high_pp": 6.652325837742504
+    },
+    {
+      "outcome": "Compliance",
+      "mean_pp": 34.784343434343434,
+      "ci_low_pp": 23.28769841269841,
+      "ci_high_pp": 47.823609273956485
+    },
+    {
+      "outcome": "D",
+      "mean_pp": 31.218686868686866,
+      "ci_low_pp": 19.468005952380953,
+      "ci_high_pp": 44.16880071240003
+    }
+  ],
+  "leave_one_out": {
+    "D_min_pp": 27.113834422657956,
+    "D_max_pp": 33.33169934640523,
+    "strict_min_pp": 11.54847494553377,
+    "strict_max_pp": 12.572440087145969,
+    "correctness_min_pp": 2.8562091503267975,
+    "correctness_max_pp": 3.96078431372549,
+    "compliance_min_pp": 30.388344226579523,
+    "compliance_max_pp": 36.839324618736384
+  },
+  "regression_meta": {
+    "n_cells": 495,
+    "n_model_clusters": 14,
+    "r_squared": 0.1575310981621858,
+    "adj_r_squared": 0.13295908852524962,
+    "reference_dataset": "GSM8K",
+    "reference_config": "CoT",
+    "reference_family": "Gemma",
+    "note": "Exploratory OLS with model-clustered standard errors; cluster count is 14, so coefficient inference is interpreted cautiously."
+  },
+  "mbpp_pass_syntax": {
+    "pre_pass_n": 2222,
+    "post_pass_n": 1794,
+    "net_pass_loss": 428,
+    "pass_to_syntax_n": 189,
+    "syntax_to_pass_n": 49,
+    "net_pass_syntax_imbalance": 140,
+    "share_of_net_pass_loss_accounted_by_net_pass_syntax_imbalance": 0.32710280373831774,
+    "stable_pass": 1208,
+    "pass_to_fail": 1014,
+    "fail_to_pass": 586,
+    "stable_fail": 8892
+  }
+}

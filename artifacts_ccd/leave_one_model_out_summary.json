@@ -1,0 +1,10 @@
+{
+  "D_min_pp": 27.113834422657956,
+  "D_max_pp": 33.33169934640523,
+  "strict_min_pp": 11.54847494553377,
+  "strict_max_pp": 12.572440087145969,
+  "correctness_min_pp": 2.8562091503267975,
+  "correctness_max_pp": 3.96078431372549,
+  "compliance_min_pp": 30.388344226579523,
+  "compliance_max_pp": 36.839324618736384
+}
